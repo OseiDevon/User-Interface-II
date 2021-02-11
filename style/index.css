@@ -42,14 +42,59 @@ table {
 	border-spacing: 0;
 }
 
+*{
+	background-color: blanchedalmond;
+}
+
+html{
+	font-size: 62.5%;
+}
 
 .first{
-  display: flex;
+	display: flex;
+	justify-content: space-between;
+
 }
+
 .name{
-  font-size: 70%;
+  font-size: 5rem;
 }
-.tabby nav{
-  justify-content: flex-end;
-  justify-content: space-between;
+.tabby{
+	margin-right: 20%;
+	display: flex;
+	justify-content: flex-end;
+	justify-content: space-around;
+}
+
+
+a{
+	font-size: 1.3rem;
+	margin: 10% 5%;
+	background-color: black;
+	color: blanchedalmond;
+	padding: 10%;
+	border-radius: 50%;
+	text-decoration: none;
+}
+
+.mainpic{
+	display: flex;
+	justify-content: center;
+	margin: 10% 0;
+}
+
+.mainpic img{
+	width: 70%;
+}
+
+.pics {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+footer{
+	margin: 10% ;
+	display: flex;
+	justify-content: center;
 }
