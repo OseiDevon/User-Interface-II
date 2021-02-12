@@ -80,21 +80,31 @@ a{
 .mainpic{
 	display: flex;
 	justify-content: center;
-	margin: 10% 0;
+	align-items: center;
+	margin: 10% 20%;
+	font-size: 2rem;
+
 }
 
-.mainpic img{
-	width: 70%;
-}
 
 .pics {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+	justify-content: space-around;
+}
+
+.pics img{
+	margin: 5% 0;
+	border-radius: 50%;
 }
 
 footer{
 	margin: 10% ;
 	display: flex;
 	justify-content: center;
+}
+
+button{
+	border-radius: 50%;
 }
