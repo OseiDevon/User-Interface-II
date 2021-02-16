@@ -72,7 +72,7 @@ a{
 	margin: 10% 5%;
 	background-color: black;
 	color: blanchedalmond;
-	padding: 10%;
+	padding: 12%;
 	border-radius: 50%;
 	text-decoration: none;
 }
@@ -107,4 +107,14 @@ footer{
 
 button{
 	border-radius: 50%;
+}
+
+
+
+@media{
+
+}
+
+@media{
+	
 }
